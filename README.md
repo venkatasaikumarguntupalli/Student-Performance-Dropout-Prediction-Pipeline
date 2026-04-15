@@ -45,29 +45,29 @@ This project predicts whether a student is at risk using a classification approa
 
 # Features Used
 
-Attendance
-Assignment score
-GPA
-Missed submissions
-Participation score
+- Attendance
+- Assignment score
+- GPA
+- Missed submissions
+- Participation score
 
 # Models Compared
 
 The following models were trained and evaluated:
 
-Logistic Regression
-Decision Tree Classifier
-Random Forest Classifier
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
 
 # MLflow Usage
 
 MLflow was used for:
 
-tracking experiment runs
-logging model parameters
-logging evaluation metrics such as accuracy and F1-score
-storing artifacts such as confusion matrix images
-comparing runs to identify the best-performing model
+- Tracking experiment runs
+- Logging model parameters
+- Logging evaluation metrics such as accuracy and F1-score
+- Storing artifacts such as confusion matrix images
+- Comparing runs to identify the best-performing model
 
 # setup instructions
 
@@ -113,10 +113,10 @@ data/student_data.csv
 
 This will:
 
-train multiple models
-evaluate each model
-create confusion matrix artifacts
-log metrics and parameters to MLflow
+- Train multiple models
+- Evaluate each model
+- Create confusion matrix artifacts
+- Log metrics and parameters to MLflow
 
 # Launch MLflow UI
 
@@ -134,15 +134,15 @@ http://127.0.0.1:5000
 
 After running the project, the following outputs are generated:
 
-MLflow experiment runs
-logged parameters and metrics
-confusion matrix images for each model
+- MLflow experiment runs
+- Logged parameters and metrics
+- Confusion matrix images for each model
 
 Example artifact files:
 
-logistic_regression_confusion_matrix.png
-decision_tree_confusion_matrix.png
-random_forest_confusion_matrix.png
+- logistic_regression_confusion_matrix.png
+- decision_tree_confusion_matrix.png
+- random_forest_confusion_matrix.png
 
 # Interpreting the Results
 
@@ -150,9 +150,9 @@ The confusion matrices help compare how well each model predicts student risk.
 
 For example:
 
-Logistic Regression showed very strong performance on the generated dataset
-Decision Tree performed reasonably well but made more classification errors
-Random Forest also performed strongly, especially on positive class detection
+- Logistic Regression showed very strong performance on the generated dataset
+- Decision Tree performed reasonably well but made more classification errors
+- Random Forest also performed strongly, especially on positive class detection
 
 The exact best model may vary depending on the generated dataset and train/test split.
 
@@ -160,18 +160,18 @@ The exact best model may vary depending on the generated dataset and train/test 
 
 Through this project, I learned how MLflow helps organize machine learning experimentation by making it easier to:
 
-compare different models
-reproduce runs
-track training decisions
-keep artifacts and metrics in one place
+- compare different models
+- reproduce runs
+- track training decisions
+- keep artifacts and metrics in one place
 
 # Possible improvements
 
 Future enhancements could include:
 
-hyperparameter tuning
-model registry integration
-Dockerizing the project
-deploying the workflow on Kubernetes or OpenShift
-exposing predictions through a FastAPI endpoint
-using a real dataset instead of generated synthetic data
+- hyperparameter tuning
+- model registry integration
+- Dockerizing the project
+- deploying the workflow on Kubernetes or OpenShift
+- exposing predictions through a FastAPI endpoint
+- using a real dataset instead of generated synthetic data
