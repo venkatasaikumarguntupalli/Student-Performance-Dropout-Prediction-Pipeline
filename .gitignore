@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# # Local artifacts
+# artifacts/
+
+# Dataset files if you do not want to track generated data
+data/student_data.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
