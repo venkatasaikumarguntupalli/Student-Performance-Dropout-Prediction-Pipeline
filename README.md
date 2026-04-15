@@ -1,7 +1,5 @@
 # Student-Performance-Dropout-Prediction-Pipeline
 
-# Student Risk Prediction with MLflow
-
 This project is a simple end-to-end machine learning workflow built to demonstrate **MLflow experiment tracking** and basic **MLOps concepts**.
 
 The goal is to predict whether a student is at risk of dropping out based on features such as attendance, assignment performance, GPA, missed submissions, and participation score.
